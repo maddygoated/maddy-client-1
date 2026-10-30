@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "maddys-client",
+	"version": "${version}",
+	"name": "Maddy's Client",
+	"description": "Maddy's Client - a clean PvP & HUD client for Minecraft 1.21.11 with 45+ customizable modules, a drag-and-drop HUD editor and a modern mod menu (Right Shift).",
+	"authors": ["Maddy"],
+	"license": "All-Rights-Reserved",
+	"icon": "assets/maddys-client/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["com.maddy.client.MaddysClient"]
+	},
+	"mixins": [
+		"maddys-client.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*",
+		"motionblurplus": "*"
+	},
+	"jars": [
+		{ "file": "META-INF/jars/motion-blur.jar" }
+	]
+}

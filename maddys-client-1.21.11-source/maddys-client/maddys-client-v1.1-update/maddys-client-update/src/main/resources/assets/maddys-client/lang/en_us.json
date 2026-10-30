@@ -1,0 +1,10 @@
+{
+	"key.category.maddys-client.main": "Maddy's Client",
+	"key.categories.maddys-client.main": "Maddy's Client",
+	"key.maddys-client.menu": "Open Mod Menu",
+	"key.maddys-client.hud_editor": "Open HUD Editor",
+	"key.maddys-client.zoom": "Zoom",
+	"key.maddys-client.fullbright": "Toggle Fullbright",
+	"key.maddys-client.stopwatch": "Start / Stop Stopwatch",
+	"key.maddys-client.autotext": "Send AutoText"
+}
